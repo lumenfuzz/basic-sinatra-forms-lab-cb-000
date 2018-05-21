@@ -8,8 +8,8 @@ class App < Sinatra::Base
 
   post '/team' do
     @name = "Team Name: #{params["name"]}"
-    @coach = "Coach: #{params["coach"]}" 
-    @pg = "Point Guard: #{params["pg"]}" 
+    @coach = "Coach: #{params["coach"]}"
+    @pg = "Point Guard: #{params["pg"]}"
     @sg = "Shooting Guard: #{params["sg"]}"
     @pf = "Power Forward: #{params["pf"]}"
     @c = "Center: #{params["c"]}"
